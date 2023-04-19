@@ -1,0 +1,32 @@
+.equipo
+{
+    width: 100%;
+    padding: 32px;
+    box-sizing: border-box; /* Con esto se logra que solo se ocupe lo que se le esta indicando en el whidth y asi los margin, pading o border no ocupen mas y rompan la responsividad */
+    text-align: center;
+    font-size: 32px;
+    position: relative;
+}
+
+.input-color
+{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+
+.equipo h3
+{
+    font-weight: 400;
+    color: #212121;
+    border-bottom: 4px solid;
+    display: inline-block; /*De esta manera hago que la linea de arriba solo abarque lo necesario*/
+    padding-bottom: 8px;
+}
+
+.colaboradores
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
